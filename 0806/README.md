@@ -2,37 +2,61 @@
 
 ## 練習 1.1：成績統計系統
 #### 檔名： GradeStatisticsSystem.java
-1. 計算學生成績的平均值、最高分、最低分
-2. 統計各等第（A、B、C、D、F）的人數
-3. 找出高於平均分的學生人數
-4. 列印完整的成績報表
-
 
 ## 練習 1.2：矩陣運算器
 #### 檔名： MatrixCalculator.java
-1. 矩陣加法：計算兩個相同維度矩陣的和
-2. 矩陣乘法：計算兩個可相乘矩陣的乘積
-3. 矩陣轉置：將行列互換
-4. 尋找矩陣中的最大值和最小值
-
 
 ## 練習 1.3：數字陣列處理器
 #### 檔名： NumberArrayProcessor.java
-1. 移除陣列中的重複元素
-2. 合併兩個已排序的陣列
-3. 找出陣列中出現頻率最高的元素
-4. 將陣列分割成兩個相等（或近似相等）的子陣列
 
 ## 練習 1.4：井字遊戲棋盤
 #### 檔名： TicTacToeBoard.java
-1. 初始化 3x3 的遊戲棋盤
-2. 實作放置棋子的功能（檢查位置是否有效）
-3. 檢查獲勝條件（行、列、對角線）
-4. 判斷遊戲是否結束（獲勝或平手）
 
 ## 練習 1.5：選擇排序實作
 #### 檔名： SelectionSortImplementation.java
-1. 實作基本的選擇排序
-2. 顯示每一輪的排序過程
-3. 計算比較次數和交換次數
-4. 比較與氣泡排序的效能差異
+
+## 練習 2.1：遞迴數學計算器
+#### 檔名： RecursiveMathCalculator.java
+
+
+## 練習 2.2：陣列遞迴操作進階
+#### 檔名： AdvancedArrayRecursion.java
+
+## 練習 2.3：字串遞迴處理進階
+#### 檔名： AdvancedStringRecursion.java
+
+## 練習 2.4：遞迴與迭代比較
+#### 檔名： RecursionVsIteration.java
+
+## 練習 2.5：遞迴樹狀結構預習
+#### 檔名： RecursiveTreePreview.java
+
+## 練習 3.1：二元樹基本操作練習
+#### 檔名： BinaryTreeBasicOperations.java
+
+## 練習 3.2：BST範圍查詢系統
+#### 檔名： BSTRangeQuerySystem.java
+
+## 練習 3.3：樹的鏡像與對稱
+#### 檔名： TreeMirrorAndSymmetry.java
+
+## 練習 3.4：BST第k小/大元素
+#### 檔名： BSTKthElement.java
+
+## 練習 3.5：層序走訪變形
+#### 檔名： LevelOrderTraversalVariations.java
+
+## 練習 3.6：BST驗證與修復
+#### 檔名： BSTValidationAndRepair.java
+
+## 練習 3.7：樹的路徑問題
+#### 檔名： TreePathProblems.java
+
+## 練習 3.8：樹的重建
+#### 檔名： TreeReconstruction.java
+
+## 練習 3.9：BST轉換與平衡
+#### 檔名： BSTConversionAndBalance.java
+
+## 練習 3.10：多路樹與決策樹
+#### 檔名： MultiWayTreeAndDecisionTree.java
