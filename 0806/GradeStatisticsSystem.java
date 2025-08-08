@@ -1,9 +1,15 @@
+ /**
+  * 練習 1.1：成績統計系統
+  * 實作以下功能：
+  * 1. 計算學生成績的平均值、最高分、最低分
+  * 2. 統計各等第（A、B、C、D、F）的人數
+  * 3. 找出高於平均分的學生人數
+  * 4. 列印完整的成績報表
+  */
+
 import java.text.DecimalFormat;
 import java.util.Arrays;
 
-/**
- * 成績統計系統
- */
 public class GradeStatisticsSystem {
     
     /**
