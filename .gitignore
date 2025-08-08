@@ -1,0 +1,22 @@
+*.class
+
+# IDE 檔案
+.vscode/
+.idea/
+*.iml
+
+
+Thumbs.db
+
+# 建置目錄
+build/
+target/
+
+*.log
+
+*.tmp
+*.bak
+*.swp
+*.swo
+
+.env
