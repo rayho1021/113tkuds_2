@@ -2,9 +2,7 @@
 
 ### 練習 1.1：成績統計系統
 #### 檔名： GradeStatisticsSystem.java
-
 ---
-
 ### 練習 1.2：矩陣運算器
 #### 檔名： MatrixCalculator.java
 ---
