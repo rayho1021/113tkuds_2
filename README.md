@@ -8,4 +8,12 @@
 - 新增 githubdesktop 截圖
 
 ## 0806
-- ch1-ch3 練習題
+- 練習題 ch1-3
+- prac_ch1
+- prac_ch2
+- prac_ch3
+
+## 0812
+- 堆積（Heap）
+- ex_1-7
+- prac_1-10
