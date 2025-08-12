@@ -1,5 +1,7 @@
 # 0806 
+prac_ch1-3
 
+## prac_ch1
 ### 練習 1.1：成績統計系統
 #### 檔名： GradeStatisticsSystem.java
 ---
@@ -15,6 +17,8 @@
 ### 練習 1.5：選擇排序實作
 #### 檔名： SelectionSortImplementation.java
 ---
+
+## prac_ch2
 ### 練習 2.1：遞迴數學計算器
 #### 檔名： RecursiveMathCalculator.java
 ---
@@ -31,6 +35,8 @@
 ### 練習 2.5：遞迴樹狀結構預習
 #### 檔名： RecursiveTreePreview.java
 ---
+
+## prac_ch3
 ### 練習 3.1：二元樹基本操作練習
 #### 檔名： BinaryTreeBasicOperations.java
 ---
