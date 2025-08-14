@@ -8,12 +8,16 @@
 - 新增 githubdesktop 截圖
 
 ## 0806
-- 練習題 ch1-3
+陣列、遞迴與樹狀結構 ch1-3 練習題
 - prac_ch1
 - prac_ch2
 - prac_ch3
 
 ## 0812
-- 堆積（Heap）
+堆積（Heap）
 - ex_1-7
 - prac_1-10
+
+## 0814 
+AVL 樹 (高度平衡二元搜尋樹)
+* prac_1-6
