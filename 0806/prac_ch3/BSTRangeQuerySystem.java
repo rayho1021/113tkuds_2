@@ -717,10 +717,7 @@ public class BSTRangeQuerySystem {
             }
         }
     }
-    
-    /**
-     * 主程式
-     */
+
     public static void main(String[] args) {
         InteractiveInterface ui = new InteractiveInterface();
         ui.start();

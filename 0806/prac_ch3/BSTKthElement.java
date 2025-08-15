@@ -402,9 +402,6 @@ public class BSTKthElement {
         }
     }
     
-    /**
-     * 主程式 
-     */
     public static void main(String[] args) {
         System.out.println("=== BST第k小/大元素練習 ===\n");
         

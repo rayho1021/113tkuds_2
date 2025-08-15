@@ -609,9 +609,6 @@ public class RecursionVsIteration {
         System.out.println("4. 必要時可提供兩種實作供選擇");
     }
     
-    /**
-     * 主程式
-     */
     public static void main(String[] args) {
         System.out.println("遞迴與迭代比較測試程式");
         System.out.println("本程式將對四個經典演算法問題進行遞迴與迭代的效能比較");

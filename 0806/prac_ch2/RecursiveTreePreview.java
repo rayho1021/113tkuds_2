@@ -184,9 +184,6 @@ public class RecursiveTreePreview {
         }
     }
     
-    /**
-     * 主程式 
-     */
     public static void main(String[] args) {
         System.out.println("=== 遞迴樹狀結構預習 ===\n");
         

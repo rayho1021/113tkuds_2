@@ -290,9 +290,6 @@ public class BinaryTreeBasicOperations {
         }
     }
     
-    /**
-     * 主程式
-     */
     public static void main(String[] args) {
         System.out.println("=== 二元樹基本操作練習 ===\n");
         

@@ -279,11 +279,9 @@ public class RecursiveMathCalculator {
         }
     }
     
-    /**
-     * 主程式方法
-     */
+
     public static void main(String[] args) {
-        System.out.println("歡迎使用遞迴數學計算器！");
+        System.out.println("歡迎使用！");
         System.out.println("此程式實作了四種經典的遞迴數學函式");
         
         while (true) {

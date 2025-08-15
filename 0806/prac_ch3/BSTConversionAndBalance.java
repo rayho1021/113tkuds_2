@@ -389,10 +389,7 @@ public class BSTConversionAndBalance {
             System.out.println("中序遍歷相同: " + inorder1.equals(inorder2));
         }
     }
-    
-    /**
-     * 主程式 
-     */
+
     public static void main(String[] args) {
         System.out.println("=== BST轉換與平衡練習 ===\n");
         

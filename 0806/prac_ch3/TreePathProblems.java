@@ -412,9 +412,6 @@ public class TreePathProblems {
         }
     }
     
-    /**
-     * 主程式 
-     */
     public static void main(String[] args) {
         System.out.println("=== 樹的路徑問題練習 ===\n");
         

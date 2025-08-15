@@ -186,9 +186,6 @@ public class GradeStatisticsSystem {
         }  
     }
     
-    /**
-     * 主程式 
-     */
     public static void main(String[] args) {
         System.out.println("成績統計系統演示");
         System.out.println("==================");

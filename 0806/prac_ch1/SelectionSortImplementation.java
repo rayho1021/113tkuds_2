@@ -291,9 +291,7 @@ public class SelectionSortImplementation {
         System.out.println("- 最適用於: 小陣列或交換成本很高的情況");
     }
     
-    /**
-     * 主程式 - 示範選擇排序實作
-     */
+
     public static void main(String[] args) {
         System.out.println("=".repeat(70));
         System.out.println("                  選擇排序實作");

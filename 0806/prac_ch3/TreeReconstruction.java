@@ -516,9 +516,6 @@ public class TreeReconstruction {
         }
     }
     
-    /**
-     * 主程式 
-     */
     public static void main(String[] args) {
         System.out.println("=== 樹的重建練習 ===\n");
         

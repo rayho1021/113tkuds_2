@@ -335,9 +335,6 @@ public class LevelOrderTraversalVariations {
         }
     }
     
-    /**
-     * 主程式 
-     */
     public static void main(String[] args) {
         System.out.println("=== 層序走訪變形練習 ===\n");
         

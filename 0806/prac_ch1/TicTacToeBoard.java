@@ -247,9 +247,6 @@ public class TicTacToeBoard {
         }
     }
     
-    /**
-     * Main method 
-     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

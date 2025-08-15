@@ -403,10 +403,7 @@ public class BSTValidationAndRepair {
             }
         }
     }
-    
-    /**
-     * 主程式
-     */
+
     public static void main(String[] args) {
         System.out.println("=== BST驗證與修復練習 ===\n");
         

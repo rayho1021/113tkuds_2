@@ -438,9 +438,6 @@ public class MatrixCalculator {
         }
     }
     
-    /**
-     * Main method 
-     */
     public static void main(String[] args) {
         System.out.println("=".repeat(60));
         System.out.println("              INTERACTIVE MATRIX CALCULATOR");

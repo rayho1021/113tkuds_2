@@ -511,9 +511,6 @@ public class AdvancedArrayRecursion {
         }
     }
     
-    /**
-     * 主程式方法
-     */
     public static void main(String[] args) {
         System.out.println("歡迎使用陣列遞迴操作進階程式！");
         System.out.println("此程式實作了四種重要的陣列遞迴演算法");

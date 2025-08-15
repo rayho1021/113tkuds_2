@@ -523,9 +523,6 @@ public class MultiWayTreeAndDecisionTree {
         }
     }
     
-    /**
-     * 主程式 
-     */
     public static void main(String[] args) {
         System.out.println("=== 多路樹與決策樹練習 ===\n");
         
