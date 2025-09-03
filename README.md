@@ -24,3 +24,7 @@ AVL 樹 (高度平衡二元搜尋樹)
 
 ## midterm
 期中考題*12
+
+## Leetcode
+- lt_01 - lt_30
+- screenshot
