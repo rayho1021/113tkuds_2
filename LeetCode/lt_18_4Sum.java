@@ -45,8 +45,7 @@ class Solution {
                     }
                 }
             }
-        }
-        
+        } 
         return result; // 回傳所有不重複的四元組
     }
 }
