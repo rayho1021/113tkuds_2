@@ -5,35 +5,35 @@
 */
 
 class Solution {
-   public String longestPalindrome(String s) {
-       if (s == null || s.length() < 1) return ""; // 處理邊界情況
-       int start = 0, end = 0; // 記錄最長回文子字串的起始和結束位置
-       
-       // 遍歷每個字元，檢查奇數長度的回文（以 i 為中心）；檢查偶數長度的回文（以 i 和 i+1 為中心）
-       for (int i = 0; i < s.length(); i++) {
-           int len1 = expandAroundCenter(s, i, i);
-           int len2 = expandAroundCenter(s, i, i + 1);
-           int len = Math.max(len1, len2); // 取得當前位置能找到的最長回文長度
-           
-           // 如果找到更長的回文，更新起始和結束位置
-           if (len > end - start) {
-               start = i - (len - 1) / 2; // 計算新的起始位置
-               end = i + len / 2; // 計算新的結束位置
-           }
-       }
-       
-       return s.substring(start, end + 1); // 回傳最長回文子字串
-   }
-   
-   // 輔助方法：從中心向外擴展，找出最長回文的長度
-   private int expandAroundCenter(String s, int left, int right) {
-       // 當左右字元相等且未超出邊界時，繼續擴展
-       while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
-           left--; // 向左擴展
-           right++; // 向右擴展
-       }
-       return right - left - 1; // 回傳回文的長度
-   }
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() < 1) return ""; // 處理邊界情況
+        int start = 0, end = 0; // 記錄最長回文子字串的起始和結束位置
+        
+        // 遍歷每個字元，檢查奇數長度的回文（以 i 為中心）；檢查偶數長度的回文（以 i 和 i+1 為中心）
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2); // 取得當前位置能找到的最長回文長度
+            
+            // 如果找到更長的回文，更新起始和結束位置
+            if (len > end - start) {
+                start = i - (len - 1) / 2; // 計算新的起始位置
+                end = i + len / 2; // 計算新的結束位置
+            }
+        }
+        
+        return s.substring(start, end + 1); // 回傳最長回文子字串
+    }
+    
+    // 輔助方法：從中心向外擴展，找出最長回文的長度
+    private int expandAroundCenter(String s, int left, int right) {
+        // 當左右字元相等且未超出邊界時，繼續擴展
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--; // 向左擴展
+            right++; // 向右擴展
+        }
+        return right - left - 1; // 回傳回文的長度
+    }
 }
 
 /*

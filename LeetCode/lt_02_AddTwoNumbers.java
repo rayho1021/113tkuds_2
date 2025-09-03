@@ -17,32 +17,32 @@
 */
 
 class Solution {
-   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-       ListNode dummy = new ListNode(0); // 虛擬頭節點
-       ListNode current = dummy; // 用於構建結果鏈結串列的指標
-       int carry = 0; 
-       
-       // 當任一鏈結串列還有節點或還有進位時繼續處理
-       while (l1 != null || l2 != null || carry != 0) {
-           int sum = carry; // 從進位值開始計算總和
-           
-           if (l1 != null) {
-               sum += l1.val; // 加上 l1 當前節點的值
-               l1 = l1.next;  // 移動 l1 指標到下一個節點
-           }
-           
-           if (l2 != null) {
-               sum += l2.val; // 加上 l2 當前節點的值
-               l2 = l2.next;  // 移動 l2 指標到下一個節點
-           }
-           
-           carry = sum / 10; // 計算新的進位值（十位數）
-           current.next = new ListNode(sum % 10); // 建立新節點存儲個位數
-           current = current.next; // 移動結果串列的指標
-       }
-       
-       return dummy.next; // 回傳結果串列（跳過虛擬頭節點）
-   }
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0); // 虛擬頭節點
+        ListNode current = dummy; // 用於構建結果鏈結串列的指標
+        int carry = 0; 
+        
+        // 當任一鏈結串列還有節點或還有進位時繼續處理
+        while (l1 != null || l2 != null || carry != 0) {
+            int sum = carry; // 從進位值開始計算總和
+            
+            if (l1 != null) {
+                sum += l1.val; // 加上 l1 當前節點的值
+                l1 = l1.next;  // 移動 l1 指標到下一個節點
+            }
+            
+            if (l2 != null) {
+                sum += l2.val; // 加上 l2 當前節點的值
+                l2 = l2.next;  // 移動 l2 指標到下一個節點
+            }
+            
+            carry = sum / 10; // 計算新的進位值（十位數）
+            current.next = new ListNode(sum % 10); // 建立新節點存儲個位數
+            current = current.next; // 移動結果串列的指標
+        }
+        
+        return dummy.next; // 回傳結果串列（跳過虛擬頭節點）
+    }
 }
 
 /*

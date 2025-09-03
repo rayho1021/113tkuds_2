@@ -5,22 +5,22 @@
 */
 
 class Solution {
-   public int lengthOfLongestSubstring(String s) {
-       // n 為字串長度，ans 記錄最大無重複子字串長度
-       int n = s.length(), ans = 0; 
-       Map<Character, Integer> map = new HashMap<>(); // 儲存字元與其最新索引位置的映射
-       
-       // i 左指標，j 右指標
-       for (int i = 0, j = 0; j < n; j++) {
-           // 如果當前字元已經在 map 中出現過，使用 Math.max 確保 i 只能向前移動不會後退
-           if (map.containsKey(s.charAt(j))) {
-               i = Math.max(map.get(s.charAt(j)) + 1, i);
-           }
-           ans = Math.max(ans, j - i + 1); // 更新最大長度
-           map.put(s.charAt(j), j); // 更新當前字元的索引位置加入 map 中
-       }
-       return ans;
-   }
+    public int lengthOfLongestSubstring(String s) {
+        // n 為字串長度，ans 記錄最大無重複子字串長度
+        int n = s.length(), ans = 0; 
+        Map<Character, Integer> map = new HashMap<>(); // 儲存字元與其最新索引位置的映射
+        
+        // i 左指標，j 右指標
+        for (int i = 0, j = 0; j < n; j++) {
+            // 如果當前字元已經在 map 中出現過，使用 Math.max 確保 i 只能向前移動不會後退
+            if (map.containsKey(s.charAt(j))) {
+                i = Math.max(map.get(s.charAt(j)) + 1, i);
+            }
+            ans = Math.max(ans, j - i + 1); // 更新最大長度
+            map.put(s.charAt(j), j); // 更新當前字元的索引位置加入 map 中
+        }
+        return ans;
+    }
 }
 
 /*
