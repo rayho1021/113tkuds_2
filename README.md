@@ -15,12 +15,12 @@
 AVL 樹 (高度平衡二元搜尋樹)
 * prac_1-6
 
-## Leetcode
-- lt_01 - lt_30 (使用 Java 答題 1-30 )
-- screenshot
-
 ## midterm
 期中考題*12
 
 ## finalexam
 期末考題*12
+
+## Leetcode
+- lt_01 - lt_30 (使用 Java 答題 1-30 )
+- screenshot
